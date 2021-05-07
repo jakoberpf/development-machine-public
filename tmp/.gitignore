@@ -1,0 +1,13 @@
+*.envrc
+*.vault_pass
+*.terraform.lock.hcl
+*.terraform/
+*terraform.tfstate
+*terraform.tfstate.backup
+*.terraform.tfstate.lock.info
+.venv
+images/
+ansible/artifacts/octavia/server_ca/
+ansible/artifacts/octavia/client_ca/
+ansible/artifacts/kolla/passwords.yml
+terraform/admin/files/logins
